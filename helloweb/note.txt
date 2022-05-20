@@ -1,0 +1,11 @@
+데이터 전달 메소드
+get과 post
+
+get은 해당 url에 url? name&pwd&email ... 등으로 출력됨. -> 검색기록 혹은 url저장
+post는 body에 name&pwd&email... 등이 저장됨. -> 회원가입
+
+get방식으로 보내야 url을 저장가능함 검색창.
+post방식은 url을 숨기기때문에 회원가입 등에 사용함.
+
+<% %> JSTL 자바 코드 작성하는 곳.
+<%= %> JSTL에서 작성된 코드를 표현하는 표현식 EL 
