@@ -30,7 +30,7 @@ public class CookieServlet extends HttpServlet {
 		// 쿠키 쓰기
 		Cookie cookie = new Cookie(COOKIENAME, String.valueOf(visitCount));
 		cookie.setPath(request.getContextPath());
-		cookie.setMaxAge(24 * 60 * 60); // 1day 초단위 세팅이라 60 1분 60 1시간 24 1일
+		cookie.setMaxAge(24 * 60 * 60); // 1day 초단위 세팅이라 1초 60 1분 60 1시간 24 1일
 		response.addCookie(cookie);
 		// 응답
 		response.setContentType("text/html; charset=utf-8");
